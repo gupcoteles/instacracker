@@ -13,7 +13,7 @@ git clone https://github.com/gupcoteles/instacracker.git
 >[!NOTE]
 >You Should have installed python
 >
->You can install python from <a href="https://www.python.org/downloads/" rel="nofollow" target="_blank">here</a>
+>You can install python from <a href="https://www.python.org/downloads/" target="_blank">here</a>
 >
 
 ```
