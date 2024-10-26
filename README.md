@@ -12,7 +12,9 @@ git clone https://github.com/gupcoteles/instacracker.git
 
 >[!NOTE]
 >You Should have installed python
+>
 >You can install python from <a href="https://www.python.org/downloads/">here</a>
+>
 
 ```
 python -m pip install -r requirements.txt
