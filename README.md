@@ -16,7 +16,9 @@ python3 -m pip install -r requirements.txt
 
 # Usagee
 
+>
 ```
-> 1. cd instacracker
-> 2. python/python3 instacracker.py
+1. cd instacracker
 ```
+
+2. python/python3 instacracker.py
