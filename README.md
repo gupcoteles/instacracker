@@ -14,12 +14,9 @@ git clone https://github.com/gupcoteles/instacracker.git
 python3 -m pip install -r requirements.txt
 ```
 
-# Usagee
+# Usage
 
 ```
 1. cd instacracker
-```
-
-```
 2. python/python3 instacracker.py
 ```
