@@ -12,7 +12,8 @@ git clone https://github.com/gupcoteles/instacracker.git
 
 >[!NOTE]
 >You Should have installed python
->
+
+>[!TIP]
 >You can install python from <a href="https://www.python.org/downloads/" target="_blank">here</a>
 
 ```
