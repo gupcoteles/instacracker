@@ -30,6 +30,7 @@ headers = {
 }
 
 print("\n")
+system("cls||clear")
 
 with requests.Session() as session:
     response = session.get('https://www.instagram.com/accounts/login/')
